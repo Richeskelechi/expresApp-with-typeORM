@@ -7,8 +7,6 @@ This is a setup to my express App Folder Setup with type ORM and mysql database 
 
 ## check the .env.example for sample env.
 
-DB_STRING="mongodb://localhost:27017/template"
-
 ### Ensure the Database is existing
 
 
