@@ -1,0 +1,41 @@
+{
+  "name": "type-orm-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "typeorm": "typeorm",
+    "migration:generate": "typeorm migration:generate --dataSource ./db/data-source.js --outputJs",
+    "migration:run": "typeorm migration:run --dataSource ./db/data-source.js",
+    "migration:revert": "typeorm migration:revert -d ./db/ormconfig.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "libphonenumber-js": "^1.10.61",
+    "mysql2": "^3.11.1",
+    "nodemailer": "^6.9.13",
+    "reflect-metadata": "^0.2.2",
+    "uuid": "^9.0.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "typeorm": "^0.3.20",
+    "typeorm-cli": "^1.0.7"
+  }
+}

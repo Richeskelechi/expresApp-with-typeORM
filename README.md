@@ -1,5 +1,5 @@
 # expressApp-Template
-This is a setup to my express App Folder Setup with mongodb database connection.
+This is a setup to my express App Folder Setup with type ORM and mysql database connection.
 
 # Once you clone this repository
 ## create a .env file in the root of your application
